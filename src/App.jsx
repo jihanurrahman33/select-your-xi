@@ -5,6 +5,7 @@ import AvailablePlayers from "./components/AvailablePlayers/AvailablePlayers";
 import NavBar from "./components/NavBar/NavBar";
 import SelectedPlayers from "./components/SelectedPlayers/SelectedPlayers";
 import HeroBanner from "./components/HeroBanner/HeroBanner";
+import Footer from "./components/Footer/Footer";
 
 const fetchPlayers = async () => {
   const res = await fetch("/players.json");
@@ -25,6 +26,8 @@ function App() {
       </Suspense>
 
       <SelectedPlayers></SelectedPlayers>
+
+      <Footer></Footer>
     </>
   );
 }
