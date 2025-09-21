@@ -1,0 +1,122 @@
+[
+  {
+    "player_name": "Tamim Iqbal",
+    "player_country": "Bangladesh",
+    "playing_role": "Opening Batsman",
+    "rating": "5",
+    "batting_style": "Left-handed",
+    "bowling_style": "Right-arm off-break",
+    "price": 8000000,
+    "image": "https://i.ibb.co.com/RkR1nJy9/Getty-Images-1471687477-1742803560.webp"
+  },
+  {
+    "player_name": "Shakib Al Hasan",
+    "player_country": "Bangladesh",
+    "playing_role": "All-rounder",
+    "rating": "5",
+    "batting_style": "Left-handed",
+    "bowling_style": "Slow left-arm orthodox",
+    "price": 7500000,
+    "image": "https://i.ibb.co.com/WvKqH2T6/7992d7c9ecf9aaf1e8c353c34b92c41e.jpg"
+  },
+  {
+    "player_name": "Liton Das",
+    "player_country": "Bangladesh",
+    "playing_role": "Batsman / Wicket-keeper",
+    "rating": "4",
+    "batting_style": "Right-handed",
+    "bowling_style": "Right-arm off-break",
+    "price": 6800000,
+    "image": "https://i.ibb.co.com/SwN1JsH3/a59b51c8-liton-das-afp-625x300-01-March-20.webp"
+  },
+  {
+    "player_name": "Mushfiqur Rahim",
+    "player_country": "Bangladesh",
+    "playing_role": "Batsman / Wicket-keeper",
+    "rating": "4",
+    "batting_style": "Right-handed",
+    "bowling_style": "Right-arm medium pace",
+    "price": 7000000,
+    "image": "https://i.ibb.co.com/b5cXT0Rb/gettyimages-1711533800-612x612.jpg"
+  },
+  {
+    "player_name": "Mahmudullah Riyad",
+    "player_country": "Bangladesh",
+    "playing_role": "All-rounder",
+    "rating": "4",
+    "batting_style": "Right-handed",
+    "bowling_style": "Right-arm off-break",
+    "price": 7200000,
+    "image": "https://i.ibb.co.com/1cWCwjz/Mahmudullah-Riyad-announces-T20-retirement.png"
+  },
+  {
+    "player_name": "Tanzid Hasan Tamim",
+    "player_country": "Bangladesh",
+    "playing_role": "Opening Batsman",
+    "rating": "3",
+    "batting_style": "Left-handed",
+    "bowling_style": "Right-arm medium pace",
+    "price": 2200000,
+    "image": "https://i.ibb.co.com/F4cb668c/images.jpg"
+  },
+  {
+    "player_name": "Shoriful Islam",
+    "player_country": "Bangladesh",
+    "playing_role": "Bowler",
+    "rating": "4",
+    "batting_style": "Left-handed",
+    "bowling_style": "Left-arm medium-fast",
+    "price": 7800000,
+    "image": "https://i.ibb.co.com/6cFsKqCk/404082.webp"
+  },
+  {
+    "player_name": "Taskin Ahmed",
+    "player_country": "Bangladesh",
+    "playing_role": "Bowler",
+    "rating": "4",
+    "batting_style": "Left-handed",
+    "bowling_style": "Right-arm fast",
+    "price": 7300000,
+    "image": "https://i.ibb.co.com/xKJJ2JLk/Taskin-Ahmed-5.webp"
+  },
+  {
+    "player_name": "Mustafizur Rahman",
+    "player_country": "Bangladesh",
+    "playing_role": "Bowler",
+    "rating": "4",
+    "batting_style": "Left-handed",
+    "bowling_style": "Left-arm fast-medium",
+    "price": 7600000,
+    "image": "https://i.ibb.co.com/tpszK4BD/licensed-image.jpg"
+  },
+  {
+    "player_name": "Towhid Hridoy",
+    "player_country": "Bangladesh",
+    "playing_role": "Batsman",
+    "rating": "3",
+    "batting_style": "Right-handed",
+    "bowling_style": "Right-arm off-break",
+    "price": 3500000,
+    "image": "https://i.ibb.co.com/xcYD5Mx/images.webp"
+  },
+  {
+    "player_name": "Najmul Hossain Shanto",
+    "player_country": "Bangladesh",
+    "playing_role": "Batsman",
+    "rating": "4",
+    "batting_style": "Left-handed",
+    "bowling_style": "Right-arm off-break",
+    "price": 7100000,
+    "image": "https://i.ibb.co.com/Z1pL6KLs/images.webp"
+  },
+  {
+    "player_name": "Afif Hossain",
+    "player_country": "Bangladesh",
+    "playing_role": "Batsman / All-rounder",
+    "rating": "3",
+    "batting_style": "Left-handed",
+    "bowling_style": "Right-arm off-break",
+    "price": 2400000,
+    "image": "https://i.ibb.co.com/Y4L1Gzw6/licensed-image.jpg"
+  }
+]
