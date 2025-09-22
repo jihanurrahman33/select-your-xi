@@ -6,23 +6,37 @@ import NavBar from "./components/NavBar/NavBar";
 import SelectedPlayers from "./components/SelectedPlayers/SelectedPlayers";
 import HeroBanner from "./components/HeroBanner/HeroBanner";
 import Footer from "./components/Footer/Footer";
+import { ToastContainer } from "react-toastify";
 
 const fetchPlayers = async () => {
   const res = await fetch("/players.json");
   return res.json();
 };
+
 const playersPromise = fetchPlayers();
 function App() {
   const [toggle, setToggle] = useState(true);
-
+  const [purchasedPlayers, setpurchasedPlayers] = useState([]);
   const [availableBalance, setAvailableBalance] = useState(60000000);
+
+  const removePlayer = (p) => {
+    const filteredData = purchasedPlayers.filter(
+      (ply) => ply.player_name !== p.player_name
+    );
+    setpurchasedPlayers(filteredData);
+    setAvailableBalance(availableBalance + p.price);
+  };
 
   return (
     <>
       <NavBar availableBalance={availableBalance}></NavBar>
       <HeroBanner></HeroBanner>
       <div className="max-w-[1200px] mx-auto flex justify-between items-center">
-        <h1 className="font-bold text-2xl">Available Players</h1>
+        <h1 className="font-bold text-2xl">
+          {toggle
+            ? "Available Players"
+            : `Selected Player (${purchasedPlayers.length}/6)`}
+        </h1>
         <div className="font-bold">
           <button
             onClick={() => setToggle(true)}
@@ -38,7 +52,7 @@ function App() {
               toggle === false ? "bg-[#E7FE29]" : ""
             }`}
           >
-            Selected <span>{0}</span>
+            Selected <span>{purchasedPlayers.length}</span>
           </button>
         </div>
       </div>
@@ -50,16 +64,22 @@ function App() {
           }
         >
           <AvailablePlayers
+            purchasedPlayers={purchasedPlayers}
+            setpurchasedPlayers={setpurchasedPlayers}
             availableBalance={availableBalance}
             setAvailableBalance={setAvailableBalance}
             playersPromise={playersPromise}
           ></AvailablePlayers>
         </Suspense>
       ) : (
-        <SelectedPlayers></SelectedPlayers>
+        <SelectedPlayers
+          removePlayer={removePlayer}
+          purchasedPlayers={purchasedPlayers}
+        ></SelectedPlayers>
       )}
 
       <Footer></Footer>
+      <ToastContainer />
     </>
   );
 }
